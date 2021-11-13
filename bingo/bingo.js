@@ -18,8 +18,8 @@ module.exports.run = async(client, message, args) => {
     //IMPORTANT ! Modifier les **2** false si vous ne voulez pas faire bugger le système, de plus, n'oubliez pas de modifier la ligne 6
     const canvas = Canvas.createCanvas(500, 500);
     const context = canvas.getContext('2d');
-    const background = await Canvas.loadImage('./images/bingos-require/background.png');
-    const bonus = await Canvas.loadImage('./images/bingos-require/bonus.png')
+    const background = await Canvas.loadImage('./bingo/bingo-require/background.png');
+    const bonus = await Canvas.loadImage('./bingo/bingo-require/bonus.png')
     context.drawImage(background, 0, 0, canvas.width, canvas.height);
     //Les 5 lignes au dessus sont à manipulée avec attention. N'y touchez pas si vous savez pas ce que vous faites.
 
