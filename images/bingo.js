@@ -224,5 +224,5 @@ module.exports.run = async(client, message, args) => {
     message.channel.send(`${message.author.toString()}, voici ton bingo, bonne chance !`, attachment)
 }
 module.exports.help = {
-    name: "bt",
+    name: "bingo",
 }
