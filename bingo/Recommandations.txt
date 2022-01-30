@@ -1,0 +1,10 @@
+Background
+
+Remplacer "background.png" par une autre image possédant le même nom.
+(Resolution recommandé : 500x500)
+
+Bonus
+
+Remplacer "bonus.png" par une autre image possédant le même nom.
+(Resolution recommandé : 100x100)
+Ne PAS supprimer "bonus.png" pour retirer le bonus. L'instruction à suivre est présente dans le ReadMe.
